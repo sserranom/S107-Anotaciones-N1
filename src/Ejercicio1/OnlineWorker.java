@@ -1,10 +1,10 @@
 package Ejercicio1;
 
-public class onlineWorker extends Worker {
+public class OnlineWorker extends Worker {
 
     private static final double INTERNET_PRICE = 55.00;
 
-    public onlineWorker(String name, String lastName, double priceHour) {
+    public OnlineWorker(String name, String lastName, double priceHour) {
         super(name, lastName, priceHour);
     }
 
