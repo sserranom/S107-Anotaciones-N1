@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Ejercicio2;
 
 public class Worker {
 
@@ -17,10 +17,12 @@ public class Worker {
     }
 
     public String getWorker() {
+
         return name + " " + lastName;
     }
 
     public String getWorkerType(){
+
         return null;
     }
 
